@@ -1,0 +1,21 @@
+# Secrets / clés API — ne jamais versionner
+.env
+*.key
+*_key*
+secrets*
+config_secret*
+
+# Fichiers temporaires / logs
+*.log
+rapport_soc.txt
+alerts.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Système
+.DS_Store
+Thumbs.db
